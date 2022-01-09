@@ -1,0 +1,33 @@
+// Header
+
+@import './Header/header.scss';
+@import './Header/headerTop.scss';
+@import './Header/headerSearch.scss';
+@import './Header/headerCategory.scss';
+
+// Home
+
+@import './Home/home.scss';
+@import './Home/homeTop.scss';
+@import './Home/homeNavigation.scss';
+@import './Home/homeProducts.scss';
+@import './Home/homeProducts/feuturedProducts.scss';
+@import './Home/industryLeaders/industryLeaders.scss';
+@import './Home/newProducts/newProducts.scss';
+@import './Home/testimonials/testimonials.scss';
+@import './Home/ad/ad.scss';
+@import './Home/topRated/topRated.scss';
+@import './Home/mostPopular/mostPopular.scss';
+@import './Home/4over4/over4.scss';
+@import './Home/browseByCategory/browseByCategory.scss';
+@import './Home/why/why.scss';
+@import './Home/simplePack/simplePack.scss';
+@import './Home/templates/templates.scss';
+@import './Home/socialMedia/socialMedia.scss';
+
+//Footer
+
+@import './Footer/footer.scss';
+@import './Footer/footerTop.scss';
+@import './Footer/footerContent.scss';
+@import './Footer/footerBottom.scss';

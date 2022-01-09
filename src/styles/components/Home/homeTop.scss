@@ -1,0 +1,53 @@
+.homeTop {
+	background: url('../../../assets/Home/homeTop/homeTopBackground.png');
+	height: 56rem;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-left: 35.5rem;
+
+	> h1 {
+		padding-top: 10.4rem;
+		font-weight: 600;
+		font-size: 5rem;
+		line-height: 6rem;
+
+		color: #232323;
+		max-width: 54rem;
+		margin: 0;
+	}
+	> p {
+		font-size: 1.9rem;
+		line-height: 4.7rem;
+
+		color: #4f4f4f;
+		margin: 0;
+	}
+	> span {
+		font-weight: 400;
+		font-size: 1.9rem;
+		line-height: 3.9rem;
+
+		color: #707070;
+
+		display: block;
+		max-width: 54rem;
+	}
+	> div {
+		background-color: #fd8516;
+		border-radius: 3px;
+		display: flex;
+		width: 18.2rem;
+		height: 4.7rem;
+		justify-content: center;
+		align-items: center;
+		grid-gap: 2.75rem;
+		margin-top: 1.5rem;
+		> p {
+			font-weight: 600;
+			font-size: 1.6rem;
+			line-height: 2.1rem;
+
+			color: #ffffff;
+		}
+	}
+}

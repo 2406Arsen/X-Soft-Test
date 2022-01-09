@@ -1,0 +1,30 @@
+.footerBottom {
+	background-color: #191919;
+	padding-bottom: 2rem;
+	padding-top: 1.6rem;
+	img {
+		margin: 0 auto;
+
+		display: block;
+		width: max-content;
+	}
+	p {
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 1.1rem;
+		width: max-content;
+
+		color: #ffffff;
+	}
+	span {
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+		text-align: center;
+
+		color: #606060;
+		display: block;
+		margin-top: 0.8rem;
+	}
+}

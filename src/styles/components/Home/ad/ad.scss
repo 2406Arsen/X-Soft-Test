@@ -1,0 +1,74 @@
+.ad {
+	margin-top: 4.2rem;
+	position: relative;
+	> img {
+		width: 100%;
+	}
+	> span {
+		display: block;
+		height: 19.7rem;
+		width: 25.5rem;
+		background-color: #ffffff;
+		box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.15);
+		border-radius: 3px;
+
+		position: absolute;
+		right: 7.3rem;
+		top: 7.4rem;
+
+		> span {
+			width: 11.4rem;
+			height: 2.4rem;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			background-color: #23c2a8;
+			border-radius: 0.3rem;
+
+			font-size: 1.3rem;
+			line-height: 1.8rem;
+
+			color: #ffffff;
+
+			margin-top: 3.3rem;
+			margin-left: 3.1rem;
+		}
+		> p {
+			font-weight: 600;
+			font-size: 2.5rem;
+			line-height: 3.1rem;
+
+			color: #232323;
+			margin: 0;
+			margin-left: 3.1rem;
+			margin-top: 0.6rem;
+		}
+		> div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			grid-gap: 2rem;
+
+			width: 12.9rem;
+			height: 2.4rem;
+
+			background: #ffffff;
+			border: 1px solid #fd8516;
+			box-sizing: border-box;
+			border-radius: 0.3rem;
+			margin-left: 3.1rem;
+			margin-top: 2.3rem;
+
+			> span {
+				font-size: 1.3rem;
+				line-height: 1.8rem;
+
+				text-transform: uppercase;
+
+				color: #fd8516;
+			}
+		}
+	}
+}

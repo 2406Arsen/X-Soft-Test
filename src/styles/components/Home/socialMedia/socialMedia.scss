@@ -1,0 +1,47 @@
+.socialMedia {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3.6rem;
+	> div {
+		display: flex;
+		border: 1px solid;
+		align-items: center;
+
+		height: 6.3rem;
+		max-width: 21.4rem;
+		box-sizing: border-box;
+		border-radius: 0.3rem;
+		> svg {
+			margin-left: 1.5rem;
+		}
+		> p {
+			margin: 0;
+			margin-left: 0.986rem;
+			max-width: 13.4rem;
+			font-size: 1.4rem;
+			line-height: 1.6rem;
+			width: fit-content;
+		}
+		> span {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			grid-gap: 0.5rem;
+			width: 5.5rem;
+			height: 2.9rem;
+			margin-right: 1.3rem;
+			background-color: #efefef;
+			border-radius: 1.5px;
+			> p {
+				font-size: 1.3rem;
+				line-height: 1.7rem;
+
+				text-align: center;
+				text-transform: uppercase;
+
+				color: #3e3e3e;
+				margin: 0;
+			}
+		}
+	}
+}

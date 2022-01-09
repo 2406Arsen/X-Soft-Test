@@ -1,0 +1,110 @@
+.homeNavigation {
+	max-width: 29.7rem;
+	width: 100%;
+	height: max-content;
+	background: #ffffff;
+	box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.21);
+	border-radius: 0.3rem;
+	&--title {
+		display: flex;
+		grid-gap: 0.8rem;
+		margin-top: 1.7rem;
+		margin-bottom: 2.4rem;
+		padding-left: 2.4rem;
+		> p {
+			margin: 0;
+			font-size: 2.4rem;
+			line-height: 2.9rem;
+
+			color: #23c2a8;
+		}
+	}
+	&__products {
+		padding-right: 2.25rem;
+		padding-left: 2.4rem;
+
+		> div {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			> span {
+				display: flex;
+				align-items: center;
+				grid-row-gap: 2rem;
+				> p {
+					font-size: 14px;
+					line-height: 3.2rem;
+					margin: 0;
+
+					color: #4c4c4c;
+				}
+				> img {
+					margin-right: 0.447rem;
+					margin-left: 0.6rem;
+				}
+				> span {
+					font-size: 1rem;
+					line-height: 1.2rem;
+					display: block;
+					text-align: center;
+					text-transform: uppercase;
+					color: #ffffff;
+					width: 9.7rem;
+					height: 1.4rem;
+					background-color: #f95a4e;
+					border-radius: 1.2rem;
+					margin-left: 0.5rem;
+				}
+				> div {
+					width: 3.6rem;
+					height: 1.4rem;
+					background-color: #81c719;
+					border-radius: 1.2rem;
+					font-size: 1rem;
+					line-height: 1.2rem;
+					text-align: center;
+					text-transform: uppercase;
+					color: #ffffff;
+					margin-left: 0.5rem;
+				}
+			}
+		}
+	}
+	&__seeAllProducts {
+		display: flex;
+		grid-gap: 0.8rem;
+		align-items: center;
+		margin-top: 0.6rem;
+		padding-left: 2.4rem;
+		padding-bottom: 1.7rem;
+		> p {
+			font-weight: 600;
+			font-size: 1.4rem;
+			line-height: 3.2rem;
+
+			color: #4c4c4c;
+			margin: 0;
+		}
+	}
+	&__getCustomQuote {
+		display: flex;
+		align-items: center;
+		grid-gap: 0.8rem;
+		background-color: #f1f1f1;
+		padding-left: 2.4rem;
+		padding-top: 1.4rem;
+		padding-bottom: 1.1rem;
+		> p {
+			font-weight: 600;
+			font-size: 1.4rem;
+			line-height: 3.2rem;
+			margin: 0;
+			color: #4c4c4c;
+		}
+	}
+}
+@media (max-width: 1024px) {
+	.homeNavigation {
+		display: none;
+	}
+}

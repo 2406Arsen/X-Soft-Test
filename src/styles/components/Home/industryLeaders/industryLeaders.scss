@@ -1,0 +1,15 @@
+.industryLeaders {
+	margin-top: 3.6rem;
+	> p {
+		font-size: 2.5rem;
+		line-height: 3rem;
+
+		color: #272727;
+		margin: unset;
+	}
+	> div {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}

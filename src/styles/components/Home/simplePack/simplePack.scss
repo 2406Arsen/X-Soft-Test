@@ -1,0 +1,58 @@
+.simplePack {
+	position: relative;
+	> div {
+		position: absolute;
+		width: 25.5rem;
+		height: 22rem;
+		bottom: 4.5rem;
+		right: 7.3rem;
+
+		background: #ffffff;
+		box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.15);
+		border-radius: 0.3rem;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		> div {
+			max-width: 20.2rem;
+            
+			> p {
+				font-weight: 600;
+				font-size: 2.5rem;
+				line-height: 3.1rem;
+				margin: 0;
+				color: #232323;
+			}
+			> span {
+				display: block;
+				margin-top: 1rem;
+				font-size: 1.2rem;
+				line-height: 1.9rem;
+				color: #9c9c9c;
+			}
+			> div {
+				width: 18.9rem;
+				height: 2.4rem;
+
+				background: #ffffff;
+				border: 1px solid #23c2a8;
+				box-sizing: border-box;
+				border-radius: 0.3rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				grid-gap: 2.5rem;
+				margin-top: 2rem;
+				> p {
+					font-weight: 600;
+					font-size: 1.3rem;
+					line-height: 1.8rem;
+					text-transform: uppercase;
+					margin: 0;
+					color: #23c2a8;
+				}
+			}
+		}
+	}
+}

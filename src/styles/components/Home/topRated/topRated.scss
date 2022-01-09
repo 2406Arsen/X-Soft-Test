@@ -1,0 +1,84 @@
+.topRated {
+	overflow: hidden;
+	position: relative;
+	margin-top: 4.1rem;
+	> p {
+		font-weight: 600;
+		font-size: 2.5rem;
+		line-height: 3rem;
+
+		margin: 0;
+		margin-bottom: 1.7rem;
+		color: #272727;
+	}
+	&__slideItem {
+		width: 28.5rem;
+		> div {
+			width: 26rem;
+			height: 36.8rem;
+
+			background-color: #ffffff;
+			box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.25);
+			border-radius: 0.3rem;
+			> div {
+				padding-left: 2.4rem;
+				> img {
+					width: 100%;
+				}
+				> span {
+					margin-top: 2.1rem;
+					display: block;
+
+					> p {
+						font-size: 1.5rem;
+						line-height: 2.1rem;
+
+						color: #232323;
+						margin: 0;
+					}
+					> span {
+						font-size: 1.3rem;
+						line-height: 1.8rem;
+						text-transform: uppercase;
+						color: #23c2a8;
+						margin-top: 0.4rem;
+					}
+					> div {
+						display: flex;
+						margin-top: 1rem;
+						> p {
+							font-size: 1rem;
+							line-height: 1.4rem;
+							color: #959595;
+							margin: 0;
+						}
+					}
+				}
+				> p {
+					font-size: 1.2rem;
+					line-height: 1.8rem;
+					margin: 0;
+					color: #4c4c4c;
+					max-width: 21rem;
+					margin-top: 1.33rem;
+					padding-top: 1rem;
+					border-top: 1px solid #efefef;
+				}
+			}
+		}
+	}
+
+	.slick-track {
+		display: flex;
+	}
+	.slick-next {
+		position: absolute;
+		right: 0rem;
+		top: 0;
+	}
+	.slick-prev {
+		position: absolute;
+		right: 4.5rem;
+		top: 0;
+	}
+}
