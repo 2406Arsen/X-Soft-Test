@@ -2,10 +2,11 @@ import { FC } from 'react';
 
 import { BrowseByCategoryDataProps } from '../model';
 
+import browseByCategoryFakeData from './browseByCategoryData.json';
 import BrowseByCategoryDataItem from './BrowseByCategoryDataItem';
-import { browseByCategoryFakeData } from './browseByCategoryFakeData';
 
-const BrowseByCategoryData: FC<BrowseByCategoryDataProps> = ({ setCurrentId }) => {
+const BrowseByCategoryData: FC<BrowseByCategoryDataProps> = ({ setCurrentId, currentId }) => {
+
 	return (
 		<div className='browseByCategory__container__data'>
 			{browseByCategoryFakeData.map(({ id, icon, name }) => (
@@ -15,6 +16,7 @@ const BrowseByCategoryData: FC<BrowseByCategoryDataProps> = ({ setCurrentId }) =
 					id={id}
 					setCurrentId={setCurrentId}
 					key={name}
+					currentId={currentId}
 				/>
 			))}
 		</div>

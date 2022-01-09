@@ -19,11 +19,11 @@
 				line-height: 1.1rem;
 				letter-spacing: 0.05rem;
 				color: #23c2a8;
-				
+
 				border: 1px solid #23c2a8;
 				box-sizing: border-box;
 				border-radius: 0.7rem;
-				
+
 				padding: 0.1rem 0.5rem 0.2rem 0.7rem;
 			}
 			> p {
@@ -41,5 +41,10 @@
 				}
 			}
 		}
+	}
+}
+@media (max-width: 768px) {
+	.headerTop {
+		display: none;
 	}
 }

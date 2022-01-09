@@ -40,11 +40,14 @@ export type Over4ItemProps = {
 
 export type BrowseByCategoryDataProps = {
 	setCurrentId: React.Dispatch<React.SetStateAction<number>>;
+	currentId: number;
 };
 
 export type BrowseByCategoryDataItemProps = {
 	id: number;
 	setCurrentId: React.Dispatch<React.SetStateAction<number>>;
+	currentId: number;
+
 	icon: string;
 	name: string;
 };

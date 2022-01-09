@@ -3,6 +3,7 @@
 	position: relative;
 	> img {
 		width: 100%;
+		min-height: 37rem;
 	}
 	> span {
 		display: block;
@@ -69,6 +70,31 @@
 
 				color: #fd8516;
 			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.ad {
+		> span {
+			bottom: 2.7rem;
+			top: unset;
+			right: unset;
+			left: 40%;
+		}
+	}
+}
+@media (max-width: 550px) {
+	.ad {
+		> span {
+			left: 30%;
+		}
+	}
+}
+@media (max-width: 390px) {
+	.ad {
+		> span {
+			left: 20%;
 		}
 	}
 }

@@ -18,11 +18,11 @@
 			max-width: 38.4rem;
 			&:first-child {
 				padding-left: 0;
-				
-			}&:last-child {
+			}
+			&:last-child {
 				padding-right: 0;
 				border-right: unset;
-                min-width: 31.5%;
+				min-width: 31.5%;
 			}
 			> div {
 				min-height: 26rem;
@@ -49,6 +49,37 @@
 					margin: 0;
 					&:last-child {
 						margin-top: 3.5rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.why {
+		> p {
+			margin-left: 2.3rem;
+		}
+		> div {
+			flex-direction: column;
+			grid-row-gap: 4rem;
+			justify-content: center;
+			align-items: center;
+			margin-top: 1rem;
+			.whyItem {
+				padding: 0 !important;
+				>span {
+					> p {
+						margin-left: 0.8rem;
+					}
+				}
+				> div {
+					>p {
+						margin-left: 0.8rem;
+					}
+					> img {
+						display: block;
 					}
 				}
 			}

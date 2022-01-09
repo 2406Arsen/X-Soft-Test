@@ -12,19 +12,9 @@
 		justify-content: space-between;
 
 		> span {
-			display: flex;
-			align-items: center;
-
-			font-size: 19px;
-			line-height: 22px;
-
+			font-size: 1.9rem;
+			line-height: 2.2rem;
 			color: #3e3e3e;
-			> span {
-				font-weight: 600;
-			}
-			> p {
-				margin: 0;
-			}
 		}
 		> div {
 			max-width: 64.1rem;
@@ -69,5 +59,28 @@
 				color: #ffffff;
 			}
 		}
+	}
+}
+@media (max-width: 768px) {
+	.footerTop {
+		padding: 2.8rem 3.6rem 2.4rem 3.6rem;
+		&__container {
+			flex-direction: column;
+			grid-row-gap: 1.2rem;
+			width: max-content;
+			margin: 0 auto;
+			> span {
+				font-size: 1.9rem;
+				line-height: 2.2rem;
+			}
+			> div {
+				max-width: 33.7rem;
+			}
+		}
+	}
+}
+@media (max-width:425px) {
+	.footerTop {
+		padding-left: 0.5rem;
 	}
 }

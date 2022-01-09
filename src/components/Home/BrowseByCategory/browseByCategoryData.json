@@ -1,0 +1,135 @@
+[
+	{
+		"id": 0,
+		"icon": "/assets/BrowseByCategory/buisnessBasics.svg",
+		"name": "Business Basics",
+		"subData": [
+			"Appointment Cards",
+			"Business Cards",
+			"Carbonless Forms",
+			"Letterhead",
+			"Envelopes",
+			"Notepads",
+			"Pocket Folders",
+			"Post-its",
+			"Rubber Stamps",
+			"Sales Sheets",
+			"Shipping & Mailing Labels",
+			"Statement Stuffers"
+		]
+	},
+	{
+		"id": 1,
+		"icon": "/assets/BrowseByCategory/marketEssentials.svg",
+		"name": "Market Essentials",
+		"subData": [
+			"Appointment Cards",
+			"Business Cards",
+			"Carbonless Forms",
+			"Letterhead",
+			"Envelopes",
+			"Notepads",
+			"Pocket Folders",
+			"Post-its",
+			"Rubber Stamps",
+			"Sales Sheets",
+			"Shipping & Mailing Labels",
+			"Statement Stuffers"
+		]
+	},
+	{
+		"id": 2,
+		"icon": "/assets/BrowseByCategory/packaging.svg",
+		"name": "Packaging & Retail",
+		"subData": [
+			"Appointment Cards",
+			"Business Cards",
+			"Carbonless Forms",
+			"Letterhead",
+			"Envelopes",
+			"Notepads",
+			"Pocket Folders",
+			"Post-its",
+			"Rubber Stamps",
+			"Sales Sheets",
+			"Shipping & Mailing Labels",
+			"Statement Stuffers"
+		]
+	},
+	{
+		"id": 3,
+		"icon": "/assets/BrowseByCategory/promotional.svg",
+		"name": "Promotional & Events",
+		"subData": [
+			"Appointment Cards",
+			"Business Cards",
+			"Carbonless Forms",
+			"Letterhead",
+			"Envelopes",
+			"Notepads",
+			"Pocket Folders",
+			"Post-its",
+			"Rubber Stamps",
+			"Sales Sheets",
+			"Shipping & Mailing Labels",
+			"Statement Stuffers"
+		]
+	},
+	{
+		"id": 4,
+		"icon": "/assets/BrowseByCategory/realEstate.svg",
+		"name": "Real Estate Products",
+		"subData": [
+			"Appointment Cards",
+			"Business Cards",
+			"Carbonless Forms",
+			"Letterhead",
+			"Envelopes",
+			"Notepads",
+			"Pocket Folders",
+			"Post-its",
+			"Rubber Stamps",
+			"Sales Sheets",
+			"Shipping & Mailing Labels",
+			"Statement Stuffers"
+		]
+	},
+	{
+		"id": 5,
+		"icon": "/assets/BrowseByCategory/signs.svg",
+		"name": "Signs,Banners & Displays",
+		"subData": [
+			"Appointment Cards",
+			"Business Cards",
+			"Carbonless Forms",
+			"Letterhead",
+			"Envelopes",
+			"Notepads",
+			"Pocket Folders",
+			"Post-its",
+			"Rubber Stamps",
+			"Sales Sheets",
+			"Shipping & Mailing Labels",
+			"Statement Stuffers"
+		]
+	},
+	{
+		"id": 6,
+		"icon": "/assets/BrowseByCategory/stickers.svg",
+		"name": "Stickers & Labels",
+		"subData": [
+			"Appointment Cards11",
+			"Business Cards22",
+			"Carbonless Forms423",
+			"Letterhead4234",
+			"Envelopes243",
+			"Notepads423",
+			"Pocket Folders423",
+			"Post-its534",
+			"Rubber Stamps534",
+			"Sales Sheets",
+			"Shipping & Mailing Label534",
+			"Statement Stuffers345"
+		]
+	}
+]

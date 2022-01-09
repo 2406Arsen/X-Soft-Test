@@ -10,8 +10,10 @@ const BrowseByCategory = () => {
 		<div className='browseByCategory'>
 			<p>Browse by Category</p>
 			<div className='browseByCategory__container'>
-				<BrowseByCategoryData setCurrentId={setCurrentId} />
-				<BrowseByCategorySubData currentId={currentId} />
+				<BrowseByCategoryData setCurrentId={setCurrentId} currentId={currentId} />
+				{window.innerWidth <= 768 ? null : (
+					<BrowseByCategorySubData currentId={currentId} />
+				)}
 			</div>
 		</div>
 	);

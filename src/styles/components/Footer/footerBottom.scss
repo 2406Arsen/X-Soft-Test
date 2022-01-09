@@ -28,3 +28,15 @@
 		margin-top: 0.8rem;
 	}
 }
+
+@media (max-width: 768px) {
+	.footerBottom {
+		background-color: #111111;
+		> p {
+			max-width: 30rem;
+		}
+		>img {
+			width: 55%;
+		}
+	}
+}

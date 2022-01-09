@@ -16,7 +16,7 @@
 		align-items: center;
 		> div {
 			max-width: 20.2rem;
-            
+
 			> p {
 				font-weight: 600;
 				font-size: 2.5rem;
@@ -53,6 +53,36 @@
 					color: #23c2a8;
 				}
 			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.simplePack {
+		>img {
+			width: 100%;
+			min-height: 35.6rem;
+			object-fit: cover;
+		}
+		> div {
+			bottom: 2.7rem;
+			top: unset;
+			right: unset;
+			left: 40%;
+		}
+	}
+}
+@media (max-width: 550px) {
+	.simplePack {
+		> div {
+			left: 30%;
+		}
+	}
+}
+@media (max-width: 390px) {
+	.simplePack {
+		> div {
+			left: 20%;
 		}
 	}
 }

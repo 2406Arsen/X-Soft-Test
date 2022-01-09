@@ -95,3 +95,10 @@
 		}
 	}
 }
+@media (max-width: 768px) {
+	.mostPopular {
+		> p {
+			margin-left: 2.3rem;
+		}
+	}
+}

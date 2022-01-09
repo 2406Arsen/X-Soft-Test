@@ -2,7 +2,6 @@ import Slider from 'react-slick';
 
 import { SlickArrowLeft, SlickArrowRight } from '../../utils/SliderArrowsFunction';
 
-
 import { newProductsFakeData } from './newProductsFakeData';
 import NewProductsSlideItem from './NewProductsSlideItem';
 
@@ -21,6 +20,13 @@ const NewProducts = () => {
 				breakpoint: 1070,
 				settings: {
 					slidesToShow: 2,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1.5,
 					slidesToScroll: 1,
 				},
 			},

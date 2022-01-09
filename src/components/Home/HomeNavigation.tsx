@@ -3,7 +3,11 @@ import { ReactComponent as SeeAllProductsIcon } from '../../assets/Home/Navigati
 import { ReactComponent as StarIcon } from '../../assets/Home/Navigation/starIcon.svg';
 import { ReactComponent as ToRightArrow } from '../../assets/Home/Navigation/toRightArrow.svg';
 
-import { allProductsFakeData } from './allProductsFakeData';
+import  allProductsFakeData  from './allProductsData.json';
+
+
+
+// import { allProductsFakeData } from './allProductsFakeData';
 
 const HomeNavigation = () => {
 	return (

@@ -4,9 +4,11 @@ import TemplatesTopItem from './TemplatesTopItem';
 const TemplatesTop = () => {
 	return (
 		<div className='templates__top'>
-			{templatesTopFakeData.map((text) => (
-				<TemplatesTopItem text={text} key={text}/>
-			))}
+			<div>
+				{templatesTopFakeData.map((text) => (
+					<TemplatesTopItem text={text} key={text} />
+				))}
+			</div>
 		</div>
 	);
 };

@@ -73,3 +73,17 @@
 		}
 	}
 }
+@media (max-width: 768px) {
+	.testimonials {
+		> p {
+			font-size: 2rem;
+			line-height: 2.5rem;
+			margin-left: 2.3rem;
+		}
+	}
+}
+@media (max-width: 560px) {
+	.testimonials__slideItem__container__upperPart {
+		padding-left: 0.4rem;
+	}
+}

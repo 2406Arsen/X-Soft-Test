@@ -3,8 +3,8 @@ const FooterTop = () => {
 		<div className='footerTop'>
 			<div className='footerTop__container'>
 				<span>
-					<span>Be the first to know. </span>
-					<p>Get Exclusive News and Savings!</p>
+					<strong>Be the first to know.</strong>
+					Get Exclusive News and Savings!
 				</span>
 				<div>
 					<input type='text' placeholder='Enter Email Address...' />

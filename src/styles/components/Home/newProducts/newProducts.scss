@@ -63,9 +63,10 @@
 		}
 	}
 }
-
-// @media (max-width: 1070px) {
-// 	.newProducts__slideItem {
-// 		width: 40rem;
-// 	}
-// }
+@media (max-width: 768px) {
+	.newProducts {
+		padding-left: 2.3rem;
+		> p {
+		}
+	}
+}

@@ -5,6 +5,9 @@ import HamburgerMenu from 'react-hamburger-menu';
 import { ReactComponent as AccountIcon } from '../../assets/Header/accountIcon.svg';
 import { ReactComponent as CartIcon } from '../../assets/Header/cartIcon.svg';
 import { ReactComponent as DownArrowIcon } from '../../assets/Header/downIcon.svg';
+import { ReactComponent as MobileCartIcon } from '../../assets/Header/mobile/cart.svg';
+import { ReactComponent as MobileMenuIcon } from '../../assets/Header/mobile/menu.svg';
+import { ReactComponent as MobileSearchIcon } from '../../assets/Header/mobile/mobileSearch.svg';
 import { ReactComponent as AppName } from '../../assets/Header/pageName.svg';
 import { ReactComponent as SearchIcon } from '../../assets/Header/searchIcon.svg';
 
@@ -31,7 +34,7 @@ const HeaderSearch = () => {
 					<SearchIcon />
 				</span>
 			</div>
-			<div className='headerSearch__accauntPart'>
+			<div className='headerSearch__accountPart'>
 				<AccountIcon />
 				<div>
 					<p>Account</p>
@@ -45,6 +48,12 @@ const HeaderSearch = () => {
 				<CartIcon />
 				<p>Cart</p>
 				<span>0</span>
+			</div>
+
+			<div className='headerSearch__mobileIcons'>
+				<MobileSearchIcon />
+				<MobileCartIcon />
+				<MobileMenuIcon />
 			</div>
 		</div>
 	);
