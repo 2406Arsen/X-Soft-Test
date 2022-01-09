@@ -13,7 +13,6 @@
 	&__bigWidth {
 		grid-gap: 2.3rem;
 		display: flex;
-		// flex-wrap: wrap;
 		> div {
 			position: relative;
 			> img {
@@ -48,6 +47,19 @@
 		}
 	}
 }
+@media (max-width: 1024px) {
+	.over4 {
+		> p {
+			width: max-content;
+			margin: 0 auto;
+			margin-bottom: 2.6rem;
+		}
+		&__bigWidth {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+}
 @media (max-width: 768px) {
 	.over4 {
 		overflow: hidden;
@@ -57,8 +69,13 @@
 			line-height: 2.5rem;
 			max-width: 80%;
 			margin-left: 2.3rem;
+			margin-bottom: unset;
+			width: unset;
 		}
-
+		&__bigWidth {
+			flex-wrap: nowrap;
+			justify-content: unset;
+		}
 		&__slider {
 			display: flex;
 			&--item {

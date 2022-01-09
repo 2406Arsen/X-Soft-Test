@@ -1,5 +1,10 @@
 .simplePack {
 	position: relative;
+	> img {
+		width: 100%;
+		min-height: 35.6rem;
+		object-fit: cover;
+	}
 	> div {
 		position: absolute;
 		width: 25.5rem;
@@ -59,11 +64,6 @@
 
 @media (max-width: 768px) {
 	.simplePack {
-		>img {
-			width: 100%;
-			min-height: 35.6rem;
-			object-fit: cover;
-		}
 		> div {
 			bottom: 2.7rem;
 			top: unset;

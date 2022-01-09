@@ -113,13 +113,22 @@
 		}
 	}
 }
-
+@media (max-width: 1024px) {
+	.footerContent {
+		&__container {
+			grid-gap: unset;
+			flex-direction: column;
+			&__contact {
+				div {
+					justify-content: center;
+				}
+			}
+		}
+	}
+}
 @media (max-width: 768px) {
 	.footerContent {
 		&__container {
-			flex-direction: column;
-			grid-gap: unset;
-
 			&__data {
 				flex-direction: column;
 				grid-row-gap: 1.9rem;
@@ -131,8 +140,11 @@
 				&--bigIconDiv {
 					display: none;
 				}
-				
+
 				padding-left: 3.5rem;
+				div {
+					justify-content: unset;
+				}
 			}
 		}
 	}

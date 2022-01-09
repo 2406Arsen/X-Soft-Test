@@ -114,6 +114,21 @@
 		}
 	}
 }
+@media (max-width: 1024px) {
+	.templates {
+		width: max-content;
+		margin: 0 auto;
+		margin-top: 2.1rem;
+	}
+	.templates__bottom__nav {
+		display: none;
+	}
+	.templates__bottom__data {
+		> div {
+			padding: 0;
+		}
+	}
+}
 @media (max-width: 768px) {
 	.templates {
 		&__top {
@@ -134,9 +149,7 @@
 		}
 		&__bottom {
 			margin: 0 auto;
-			&__nav {
-				display: none;
-			}
+
 			&__data {
 				padding: 2.5rem 4.7rem;
 				> div {
